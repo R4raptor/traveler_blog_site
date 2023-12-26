@@ -1,0 +1,143 @@
+body {
+  background-color: #feffde;
+  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  /* margin:  -5px;  */
+  padding: 10px 25px 10px 25px;
+  width: 100%;
+  z-index: 2;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.navbar-brand {
+  padding: 1px;
+  padding-right: 0.5px;
+}
+.blogger {
+  padding: 5px;
+}
+.container {
+  padding: 10px;
+}
+
+.card {
+  margin-top: 50px;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.carousel-inner {
+  padding: 40px;
+}
+.text {
+  margin-bottom: 55px;
+}
+.trending {
+  height: 15rem;
+}
+
+.trend_gif {
+  height: fit-content;
+  width: 75%;
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+
+#gif_parent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-inner {
+  padding-top: 100px;
+}
+.card-text {
+  color: whitesmoke;
+}
+.card-title {
+  color: aliceblue;
+}
+/* footer */
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+body {
+  background: rgba(0, 0, 0, 0.474);
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.474);
+}
+
+/* ==========================================
+      CUSTOM UTILS CLASSES
+    ========================================== */
+body,
+html {
+  height: 100%;
+}
+.footer {
+  z-index: 100%;
+  position: relative;
+  display: flex;
+}
+.btn-primary {
+  color: #000000;
+  background-color: #ffffff;
+}
+.text-muted {
+  color: red;
+}
+/* forms */
+.textwhite p, h5 {
+  color: whitesmoke;
+}

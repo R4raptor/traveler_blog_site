@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="form.css">
+     <link rel="icon" type="image/x-icon" href="https://em-content.zobj.net/thumbs/120/google/350/compass_1f9ed.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- <title class="blogger">Blogger</title>
+    <!-- CSS styles -->
+    <!-- <link rel="stylesheet" href="./CSS/styles.css"> --> 
+    
+  
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="./images/video4.mp4" type="video/mp4">
+    </video>
+    <h1 class="contact">Contact Us</h1>
+    <form action="submit-form.php" method="POST">
+      <label class="imp" for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label class="imp" for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label class="imp" for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+      <label class="imp" for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
